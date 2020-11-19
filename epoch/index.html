@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>EPOCH 2k19</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Regna
+    Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
+    @import url('https://fonts.googleapis.com/css?family=Bad+Script');
+    body
+    {
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat',sans-serif;
+    }
+    h1
+    {
+      margin: 0;
+      padding: 0;
+      color:#111;
+      font-size: 16em;
+    }
+    h1 span
+    {
+      display: table-cell;
+      margin: 0;
+      padding: 0;
+      animation: animate 2s linear infinite;
+    }
+    h1 span:nth-child(1)
+    {
+      animation-delay: 0s;
+    }
+
+    h1 span:nth-child(2)
+    {
+      animation-delay: 0.25s;
+    }
+
+    h1 span:nth-child(3)
+    {
+      animation-delay: 0.5s;
+    }
+
+    h1 span:nth-child(4)
+    {
+      animation-delay: 0.75s;
+    }
+
+    h1 span:nth-child(5)
+    {
+      animation-delay: 1s;
+    }
+
+    h1 span:nth-child(6)
+    {
+      animation-delay: 1.25s;
+    }
+
+    h1 span:nth-child(7)
+    {
+      animation-delay: 1.5s;
+    }
+
+    h1 span:nth-child(8)
+    {
+      animation-delay: 1.75s;
+    }
+    @keyframes animate{
+      0%,100%
+      {
+        color:#fff;
+        filter: blur(0px);
+        text-shadow: 0 0 10px #fff,
+         0 0 20px #fff,
+
+
+
+
+          0 0 40px #fff,
+           0 0 80px #fff,
+            0 0 120px #fff,
+             0 0 200px #fff,
+              0 0 300px #fff,
+               0 0 400px #fff;
+      }
+      5%,95%
+      {
+        color:red;
+        filter: blur(0px);
+        text-shadow: none;
+      }
+    }
+    .timeline
+    {
+      position: relative;
+      margin: 50px auto;
+      padding: 40px 0;
+      width: 1000px;
+    }
+    .timeline:before
+    {
+      content: '';
+      position: absolute;
+      left: 50%;
+      width: 2px;
+      height: 100%;
+      background: #c5c5c5;
+    }
+    .timeline ul
+    {
+      margin: 0;
+      padding: 0;
+    }
+    .timeline ul li
+    {
+      list-style: none;
+      position: relative;
+      width: 50%;
+      padding: 20px 40px;
+      box-sizing: border-box;
+    }
+    .timeline ul li:nth-child(odd)
+    {
+      float: left;
+      text-align: right;
+      clear: both;
+    }
+     .timeline ul li:nth-child(even)
+    {
+      float: right;
+      text-align: left;
+      clear: both;
+    }
+    .content
+    {
+      padding-bottom: 20px;
+    }
+    .timeline ul li:nth-child(odd):before
+    {
+      content: '';
+      position: absolute;
+      top: 24px;
+      right: -6px;
+      width: 10px;
+      height: 10px;
+      background: rgba(233,33,99,1);
+      border-radius: 50%;
+      box-shadow: 0 0 0 3px rgba(233,33,99,0.2);
+    }
+     .timeline ul li:nth-child(even):before
+    {
+      content: '';
+      position: absolute;
+      top: 24px;
+      left: -4px;
+      width: 10px;
+      height: 10px;
+      background: rgba(233,33,99,1);
+      border-radius: 50%;
+      box-shadow: 0 0 0 3px rgba(233,33,99,0.2);
+    }
+    .timeline ul li h3
+    {
+      margin: 0;
+      padding-bottom: 0;
+      font-weight: 600;
+      color: rgba(233,33,99,1);
+    }
+    .timeline ul li p
+    {
+      margin: 10px 0 0;
+      padding: 0;
+    }
+    .timeline ul li .time h4
+    {
+      margin: 0;
+      padding:0;
+      font-size: 14px;
+    }
+    .timeline ul li:nth-child(odd) .time
+    {
+      position: absolute;
+      top:12px;
+      right: -165px;
+      margin: 0;
+      padding: 8px 16px;
+      background: rgba(233,33,99,1);
+      color: #fff;
+      border-radius: 18px;
+      box-shadow: 0 0 0 3px rgba(233,33,99,1);
+    }
+     .timeline ul li:nth-child(even) .time
+    {
+      position: absolute;
+      top:12px;
+      left: -165px;
+      margin: 0;
+      padding: 8px 16px;
+      background: rgba(233,33,99,1);
+      color: #fff;
+      border-radius: 18px;
+      box-shadow: 0 0 0 3px rgba(233,33,99,1);
+    }
+    h1
+    {
+      text-align: center;
+      font-size: 60px;
+    }
+    @media(max-width: 1000px)
+    {
+      .timeline
+      {
+        width: 100%;
+      }
+    }
+    @media(max-width: 767px)
+    {
+      h1
+    {
+      text-align: center;
+      font-size: 40px;
+    }
+      .timeline
+      {
+        width: 100%;
+      }
+      .timeline:before
+      {
+        left: 20px;
+        top:-10px;
+      }
+      .timeline ul li:nth-child(odd),
+      .timeline ul li:nth-child(even)
+      {
+        width: 100%;
+        text-align: left;
+        padding-left: 50px;
+        padding-bottom: 50px;
+      }
+      .timeline ul li:nth-child(odd):before,
+      .timeline ul li:nth-child(even):before
+      {
+        top:-18px;
+        left:16px;
+        
+      }
+      .timeline ul li:nth-child(odd) .time ,
+      .timeline ul li:nth-child(even) .time 
+      {
+        top:-30px;
+        left: 50px;
+        right: inherit;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <a href="#hero" ><img src="css/it4.jpeg" alt="" style="height: 50px;padding-bottom: 10px;"></img></a>
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="#hero">Regna</a></h1>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="#about">About Epoch</a></li>
+          <li><a href="#services">Events</a></li>
+          <li><a href="#team">TimeLine</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Hero Section
+  ============================-->
+  <section id="hero" style="background: url(http://epoch2k19.epizy.com/images/banner/4.jpg);">
+    <div class="hero-container">
+<h1>KONGU ENGINEERING COLLEGE</h1>
+<h3 style="color:white">Department of Information Technology
+<br>Presents</h3>
+      <h1 style="font-family:Arial;font-size:100px"><span>E</span>
+      <span>P</span>
+    <span>O</span>
+    <span>C</span>
+    <span>H</span></h1>
+      <h2></h2>
+      <a href="#about" class="btn-get-started">Get Started</a>
+    </div>
+  </section><!-- #hero -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about" style="background: linear-gradient(indigo,yellow);">
+      <div class="container">
+        <div class="row about-container" >
+
+          <div class="col-lg-6 content order-lg-1 order-2" >
+            <h2 class="title">Welcome to EPOCH 2K19</h2>
+            <br>
+            <p>Epoch is a National Level Symposium that is held annually in the Department of Information Technology.
+              </p>
+
+            <div class="icon-box wow fadeInUp">
+              
+              <li>Students can participate in Events through Registration</li>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+             
+              <li>Wherein Students have to pay an amount of Rs.100.</li>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              
+              <li>Cash Prizes are awarded for several events.</li>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-10 wow fadeInRight">
+            </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title">EVENTS</h3>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box" style="background: linear-gradient(red,yellow);">
+              <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
+              <h4 class="title"><a href="">5MT</a></h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.<br>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeysl3ro1SRwhqJKRPOwKrqE6To42nP0coa3O-77I3Uh4CTMA/viewform?usp=sf_link"><button type="button" class="btn btn-warning">Register</button></a></p>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
+              <h4 class="title"><a href="">RUNTIME ERROR</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
+              <h4 class="title"><a href="">WEB ORC</a></h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
+              <h4 class="title"><a href="">CODE POLTERGEIST</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
+              <h4 class="title"><a href="">EX-QUIZ-ME</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a href=""><i class="fa fa-desktop"></i></a></div>
+              <h4 class="title"><a href="">CONNECTIONS</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div>
+          </div>
+
+      </div>
+    </section><!-- #services -->
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Timeline</h3>
+          </div>
+       <hr style="border-top: dotted 1px;" />
+        <div class="timeline">
+  <ul>
+    <li>
+      <div class="content">
+        <h3>INAUGARATION</h3>
+        </div>
+      <div class="time">
+        <h4>9am to 10am</h4>
+      </div>
+    </li>
+    <li>
+      <div class="content">
+        <h3>RUNTIME ERROR</h3>
+        
+      </div>
+      <div class="time">
+        <h4>10.30am-1.15pm</h4>
+      </div>
+    </li>
+    <li>
+      <div class="content">
+        <h3>WEB ORC</h3>
+        
+      </div>
+      <div class="time">
+        <h4>10.30am-1.15pm</h4>
+      </div>
+    </li>
+    <li>
+      <div class="content">
+       <h3>CODE POLTERGEIST</h3>
+        
+      </div>
+      <div class="time">
+        <h4>10.30am-1.15pm</h4>
+      </div>
+    </li>
+    <li>
+      <div class="content">
+        <h3>LUNCH</h3>
+        
+      </div>
+      <div class="time">
+        <h4>1.15pm-2.15pm</h4>
+      </div>
+    </li>
+    <li>
+      <div class="content">
+        <h3>EX-QUIZ-ME</h3>
+        
+      </div>
+      <div class="time">
+        <h4>2.30pm-3.00pm</h4>
+      </div>
+    </li>
+    <li>
+      <div class="content">
+        <h3>CONNECTIONS</h3>
+        
+      </div>
+      <div class="time">
+        <h4>3.00pm-3.30pm</h4>
+      </div>
+    </li>
+    <li>
+      <div class="content">
+        <h3>VALEDICTORY</h3>
+        
+      </div>
+      <div class="time">
+        <h4>3.30pm-4.30pm</h4>
+      </div>
+    </li>
+    <div style="clear: both;"></div>
+  </ul>
+</div>
+<hr style="border-top: dotted 1px;" />
+<br>
+        
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Contact</h3>
+          <p class="section-description"></p>
+        </div>
+      </div>
+
+      <!-- Uncomment below if you wan to use dynamic maps -->
+     <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+-->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d500888.3088532355!2d77.60379070280015!3d11.24743568403856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba96d7810fe32d5%3A0x85cf49c5b26fb72e!2sKongu+Engineering+College!5e0!3m2!1sen!2sin!4v1563204072840!5m2!1sen!2sin" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+      
+      <div class="container wow fadeInUp mt-5">
+        <div class="row justify-content-center">
+
+          <div class="col-lg-3 col-md-4">
+
+          
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
+        -->
+        Designed by <a href="https://bootstrapmade.com/">MANIBHARATHI</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
